@@ -24,7 +24,7 @@ Minimum setup to run a Diode node:
 ✅ Internet connection
 ✅ Basic terminal knowledge
 
-
+```
 ### 🛠️ Install Diode
 
 ```bash
