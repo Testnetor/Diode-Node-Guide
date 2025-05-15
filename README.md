@@ -1,6 +1,7 @@
 # Diode-Node-Guide
 <p align="center">
-  <img src="https://diode.io/img/diode-logo.svg" height="80" alt="Diode Logo" />
+  <img src="![image](https://github.com/user-attachments/assets/8af3f72e-1c46-4334-b80b-f6a017cb527f)
+" height="80" alt="Diode Logo" />
 </p>
 
 <h1 align="center">🚀 Run a Diode Node in 5 Minutes</h1>
