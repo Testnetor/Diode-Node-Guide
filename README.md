@@ -23,7 +23,7 @@ Minimum setup to run a Diode node:
 ✅ 10 GB free storage
 ✅ Internet connection
 ✅ Basic terminal knowledge
-
+```
 # ⚡ Diode Node Setup Guide (Snap Method)
 
 This guide explains how to install and manage a Diode node using Snap.  
