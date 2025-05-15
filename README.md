@@ -84,11 +84,6 @@ After installation, `diode-node` runs automatically in the background.
 # Without this balance, your node will NOT accumulate points or rewards
 # Send from your MetaMask or other EVM-compatible wallet
 ```
-## 🧾 Register on Diode Collab Platform (MANDATORY)
-
-Once your node is running and your wallet is funded, you **must** register both on the [Diode Collab](https://diode.io/#download-app) platform.  
-Otherwise, your node **will not be tracked** and you will **receive no points or rewards**.
-
 ---
 
 ## 🧾 Register on Diode Collab App (REQUIRED)
