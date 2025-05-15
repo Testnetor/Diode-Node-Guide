@@ -8,7 +8,7 @@
 
 <p align="center">
   <b>Decentralized internet starts with you.</b><br>
-  Set up your Diode node and start earning rewards
+  Set up your Diode node and start earning rewards💸
 </p>
 
 ---
