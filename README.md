@@ -77,6 +77,49 @@ sudo snap install diode-node
 After installation, `diode-node` runs automatically in the background.
 
 ---
+## 🧾 Register on Diode Collab (Required!)
+
+Once your node is running and your wallet is funded, you must register both with the Diode Collab platform using the **Telegram bot**.
+
+---
+
+### 1️⃣ Register Your Wallet
+
+In the Telegram bot (e.g., `@diode_registrar_bot`), send the following:
+
+```bash
+set wallet 0xYOURWALLETADDRESS
+```
+
+✅ You only need to do this **once per wallet**.  
+(Replace `0xYOURWALLETADDRESS` with the address you got from `diode info`.)
+
+---
+
+### 2️⃣ Register Your Node(s)
+
+Each node must be registered manually.  
+To do that, run `diode-node.info` or `diode info` and get your `NodeID`.
+
+Then in the same bot chat, send:
+
+```bash
+register node NODEID MyNodeName
+```
+
+🔹 `NODEID` is a long string shown in your node info  
+🔹 `MyNodeName` is a name you choose (e.g. `vps-france-1`)
+
+📌 You can register **multiple nodes**, no limit.
+
+---
+
+📸 *If needed, refer to the pinned message or image in the Collab bot group for an example.*
+
+⚠️ **Reminder:**  
+Nodes that are not registered will **not earn rewards** — even if they are online and funded!
+
+
 ### 🚨 Required: Fund Your Node Wallet
 
 ```bash
