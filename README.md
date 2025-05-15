@@ -1,4 +1,5 @@
-![banner](https://diode.io/assets/img/diode_og_image.png)
+![banner](![image](https://github.com/user-attachments/assets/f0f5b218-78ee-47ca-a34f-d03ca47a034f)
+)
 
 # 🛰️ Diode Node Guide
 
