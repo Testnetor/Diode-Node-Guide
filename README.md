@@ -125,12 +125,6 @@ set wallet 0xYOUR_WALLET_ADDRESS
 diode-node.info
 ```
 
-or
-
-```bash
-diode info
-```
-
 2. Copy your **NodeID**
 
 3. In the **Registrar bot** inside the app, write:
