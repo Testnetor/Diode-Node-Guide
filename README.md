@@ -84,48 +84,54 @@ After installation, `diode-node` runs automatically in the background.
 # Without this balance, your node will NOT accumulate points or rewards
 # Send from your MetaMask or other EVM-compatible wallet
 ```
-## 🧾 Register on Diode Collab (Required!)
+## 🧾 Register on Diode Collab Platform (MANDATORY)
 
-Once your node is running and your wallet is funded, you must register both with the Diode Collab platform using the **Telegram bot**.
+Once your node is running and your wallet is funded, you **must** register both on the [Diode Collab](https://collab.diode.io/) platform.  
+Otherwise, your node **will not be tracked** and you will **receive no points or rewards**.
 
 ---
 
 ### 1️⃣ Register Your Wallet
 
-In the Telegram bot (e.g., `@diode_registrar_bot`), send the following:
+➡️ Go to [https://collab.diode.io](https://collab.diode.io)  
+➡️ Open the **Registrar** app in the sidebar
+
+Then enter the following command in the bot interface:
 
 ```bash
-set wallet 0xYOURWALLETADDRESS
+set wallet 0xYOUR_WALLET_ADDRESS
 ```
 
-✅ You only need to do this **once per wallet**.  
-(Replace `0xYOURWALLETADDRESS` with the address you got from `diode info`.)
+✅ Replace `0xYOUR_WALLET_ADDRESS` with the wallet you got from `diode info`  
+✅ This step only needs to be done **once per wallet**
 
 ---
 
-### 2️⃣ Register Your Node(s)
+### 2️⃣ Register Each Node
 
-Each node must be registered manually.  
-To do that, run `diode-node.info` or `diode info` and get your `NodeID`.
+Every node must be manually registered.
 
-Then in the same bot chat, send:
+To get your `NodeID`, run the following on your server:
 
 ```bash
-register node NODEID MyNodeName
+diode-node.info
 ```
 
-🔹 `NODEID` is a long string shown in your node info  
-🔹 `MyNodeName` is a name you choose (e.g. `vps-france-1`)
+Then copy the `Node ID` and register it using this format **in the Registrar bot**:
 
-📌 You can register **multiple nodes**, no limit.
+```bash
+register node NODEID NodeName
+```
+
+📌 `NODEID`: the full string shown in your node info  
+📌 `NodeName`: any name you want (e.g. `vps-turkey-1`)
+
+✅ You can register **unlimited nodes** under the same wallet.
 
 ---
 
-📸 *If needed, refer to the pinned message or image in the Collab bot group for an example.*
-
-⚠️ **Reminder:**  
-Nodes that are not registered will **not earn rewards** — even if they are online and funded!
-
+⚠️ **Important:**  
+Nodes that are not registered through Diode Collab will NOT earn rewards — even if they are online and funded.
 
 
 ## 🔍 4. View Node Info
