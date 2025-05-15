@@ -77,6 +77,13 @@ sudo snap install diode-node
 After installation, `diode-node` runs automatically in the background.
 
 ---
+### 🚨 Required: Fund Your Node Wallet
+
+```bash
+# You must send 1–10 DIODE tokens to your node wallet (starts with 0x...)
+# Without this balance, your node will NOT accumulate points or rewards
+# Send from your MetaMask or other EVM-compatible wallet
+```
 ## 🧾 Register on Diode Collab (Required!)
 
 Once your node is running and your wallet is funded, you must register both with the Diode Collab platform using the **Telegram bot**.
@@ -119,14 +126,6 @@ register node NODEID MyNodeName
 ⚠️ **Reminder:**  
 Nodes that are not registered will **not earn rewards** — even if they are online and funded!
 
-
-### 🚨 Required: Fund Your Node Wallet
-
-```bash
-# You must send 1–10 DIODE tokens to your node wallet (starts with 0x...)
-# Without this balance, your node will NOT accumulate points or rewards
-# Send from your MetaMask or other EVM-compatible wallet
-```
 
 
 ## 🔍 4. View Node Info
