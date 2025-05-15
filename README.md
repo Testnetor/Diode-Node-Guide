@@ -77,6 +77,14 @@ sudo snap install diode-node
 After installation, `diode-node` runs automatically in the background.
 
 ---
+### 🚨 Required: Fund Your Node Wallet
+
+```bash
+# You must send 1–10 DIODE tokens to your node wallet (starts with 0x...)
+# Without this balance, your node will NOT accumulate points or rewards
+# Send from your MetaMask or other EVM-compatible wallet
+```
+
 
 ## 🔍 4. View Node Info
 
@@ -98,9 +106,6 @@ diode-node.info
 | 📄 View Live Logs | `sudo snap logs diode-node -f` |
 
 ---
-
-📝 Don’t forget to send your node wallet and participation content at the end of the epoch to earn rewards!
-
 
 ### 🎯 Tip: Boost Rewards
 
