@@ -91,47 +91,66 @@ Otherwise, your node **will not be tracked** and you will **receive no points or
 
 ---
 
-### 1️⃣ Register Your Wallet
+## 🧾 Register on Diode Collab App (REQUIRED)
 
-➡️ Go to [https://collab.diode.io](https://collab.diode.io)  
-➡️ Open the **Registrar** app in the sidebar
+Running a node is **not enough** — you must register your wallet and each node inside the **Diode Collab desktop app** in order to receive points and rewards.
 
-Then enter the following command in the bot interface:
+---
+
+### 🧱 Step 1: Download the Collab App
+
+Download and install the Diode Collab application from:
+
+🔗 https://diode.io/#download-app
+
+Supports: Windows, macOS, Linux
+
+---
+
+### 🧠 Step 2: Register Your Wallet
+
+1. Open the app  
+2. Connect the wallet you used on your node  
+3. Go to the **Registrar** bot tab  
+4. Enter the following command:
 
 ```bash
 set wallet 0xYOUR_WALLET_ADDRESS
 ```
 
-✅ Replace `0xYOUR_WALLET_ADDRESS` with the wallet you got from `diode info`  
-✅ This step only needs to be done **once per wallet**
+✅ Only needed once per wallet
 
 ---
 
-### 2️⃣ Register Each Node
+### 🖥️ Step 3: Register Your Node(s)
 
-Every node must be manually registered.
-
-To get your `NodeID`, run the following on your server:
+1. On your server, run the command:
 
 ```bash
 diode-node.info
 ```
 
-Then copy the `Node ID` and register it using this format **in the Registrar bot**:
+or
 
 ```bash
-register node NODEID NodeName
+diode info
 ```
 
-📌 `NODEID`: the full string shown in your node info  
-📌 `NodeName`: any name you want (e.g. `vps-turkey-1`)
+2. Copy your **NodeID**
 
-✅ You can register **unlimited nodes** under the same wallet.
+3. In the **Registrar bot** inside the app, write:
+
+```bash
+register node NODEID MyNodeName
+```
+
+📌 `NODEID`: from your server (it's a long string)  
+📌 `MyNodeName`: any nickname for the node (e.g., `vps-france-1`)  
+✅ You can register unlimited nodes
 
 ---
 
-⚠️ **Important:**  
-Nodes that are not registered through Diode Collab will NOT earn rewards — even if they are online and funded.
+⚠️ If you skip this step, your node will **NOT be tracked**, even if it's online and funded.
 
 
 ## 🔍 4. View Node Info
