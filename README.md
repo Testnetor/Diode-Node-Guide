@@ -12,6 +12,10 @@
 </p>
 
 ---
+# ⚡ Diode Node Setup Guide (Snap Method)
+
+This guide explains how to install and manage a Diode node using Snap.  
+Tested on Ubuntu and Debian-based Linux systems.
 
 ## 📦 Requirements
 
@@ -24,10 +28,6 @@ Minimum setup to run a Diode node:
 ✅ Internet connection
 ✅ Basic terminal knowledge
 ```
-# ⚡ Diode Node Setup Guide (Snap Method)
-
-This guide explains how to install and manage a Diode node using Snap.  
-Tested on Ubuntu and Debian-based Linux systems.
 
 ---
 
