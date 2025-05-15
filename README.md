@@ -24,30 +24,83 @@ Minimum setup to run a Diode node:
 ✅ Internet connection
 ✅ Basic terminal knowledge
 
-```
-### 🛠️ Install Diode
+# ⚡ Diode Node Setup Guide (Snap Method)
+
+This guide explains how to install and manage a Diode node using Snap.  
+Tested on Ubuntu and Debian-based Linux systems.
+
+---
+
+## 🌐 Optional: Open Required Ports
+
+Some environments may require opening these ports on your firewall:
 
 ```bash
-curl -sSf https://diode.io/install.sh | sh
+sudo ufw allow 22
+sudo ufw allow 38537
+sudo ufw allow 51055
+sudo ufw allow 41046
+sudo ufw allow 443
+sudo ufw allow 993
+sudo ufw allow 1723
+sudo ufw allow 10000
+sudo ufw allow 8545
+sudo ufw allow 8443
 ```
 
-### 🚀 Start your Diode node
+---
+
+## 🔄 1. Update & Upgrade the System
 
 ```bash
-diode client
+sudo apt update && sudo apt upgrade -y
 ```
 
-### 🔍 Get your wallet address
+---
+
+## 🧩 2. Ensure Snap is Installed
+
+Snap is required to install the Diode node. Most Ubuntu systems already have it.
 
 ```bash
-diode info
+sudo apt install snapd -y
 ```
 
-### ✅ Check if node is working
+---
+
+## 📦 3. Install Diode Node (Snap)
 
 ```bash
-diode ping
+sudo snap install diode-node
 ```
+
+After installation, `diode-node` runs automatically in the background.
+
+---
+
+## 🔍 4. View Node Info
+
+Check your node’s status, ID, and connection info with:
+
+```bash
+diode-node.info
+```
+
+---
+
+## 🛠️ Useful Commands
+
+| Description | Command |
+|------------|---------|
+| 📥 Install Diode Node | `sudo snap install diode-node` |
+| 🔎 View Node Info | `diode-node.info` |
+| ♻️ Restart the Node | `snap restart diode-node` |
+| 📄 View Live Logs | `sudo snap logs diode-node -f` |
+
+---
+
+📝 Don’t forget to send your node wallet and participation content at the end of the epoch to earn rewards!
+
 
 ### 🎯 Tip: Boost Rewards
 
