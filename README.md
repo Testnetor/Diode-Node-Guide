@@ -23,3 +23,35 @@ Minimum setup to run a Diode node:
 ✅ 10 GB free storage
 ✅ Internet connection
 ✅ Basic terminal knowledge
+
+
+### 🛠️ Install Diode
+
+```bash
+curl -sSf https://diode.io/install.sh | sh
+```
+
+### 🚀 Start your Diode node
+
+```bash
+diode client
+```
+
+### 🔍 Get your wallet address
+
+```bash
+diode info
+```
+
+### ✅ Check if node is working
+
+```bash
+diode ping
+```
+
+### 🎯 Tip: Boost Rewards
+
+```bash
+# Send 1–10 DIODE tokens to your node wallet (starts with 0x…)
+# This boosts your reward score during campaigns like Epoch 674
+```
