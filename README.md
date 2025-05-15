@@ -1,8 +1,7 @@
 # 🛰️ Diode Node Guide
 
 <p align="center">
-  <img src="![image](https://github.com/user-attachments/assets/587b65f9-d45c-4007-aebb-4936d88a15a3)
-" height="80" alt="Diode Logo" />
+  <img src="https://pbs.twimg.com/profile_images/1843447218130276352/IMDW6sot_400x400.png" height="80" alt="Diode Logo" />
 </p>
 
 <h1 align="center">🚀 Run a Diode Node in 5 Minutes</h1>
