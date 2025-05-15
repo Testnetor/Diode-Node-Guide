@@ -1,4 +1,3 @@
-# Diode-Node-Guide
 # 🛰️ Diode Node Guide
 
 <p align="center">
@@ -14,31 +13,13 @@
 
 ---
 
-## 🧰 Requirements
+## 📦 Requirements
 
-> 💡 Minimum setup for running a Diode node:
+Minimum setup to run a Diode node:
 
 ```bash
-✔️ Linux system (Ubuntu 20.04+, Debian, etc.)
-✔️ 1 vCPU, 1 GB RAM
-✔️ 10 GB free storage
-✔️ Internet connection
-✔️ Basic terminal knowledge
-
-
-# 🛠️ Install Diode
-curl -sSf https://diode.io/install.sh | sh
-
-# 🚀 Start your Diode node
-diode client
-
-# 🔍 Get your wallet address
-diode info
-
-# ✅ Check if node is working
-diode ping
-
-# 🎯 Tip: Send 1–10 DIODE tokens to your node wallet (starts with 0x...)
-# This boosts your reward score during campaigns like Epoch 674
-
-
+✅ Linux system (Ubuntu 20.04+, Debian, etc.)
+✅ 1 vCPU & 1 GB RAM
+✅ 10 GB free storage
+✅ Internet connection
+✅ Basic terminal knowledge
