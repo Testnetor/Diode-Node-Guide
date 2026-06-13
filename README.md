@@ -159,6 +159,6 @@ diode-node.info
 | 📥 Install Diode Node | `sudo snap install diode-node` |
 | 🔎 View Node Info | `diode-node.info` |
 | ♻️ Restart the Node | `snap restart diode-node` |
-| 📄 View Live Logs | `sudo snap logs diode-node -f` |
+| 📄 View Live Logs  `sudo snap logs diode-node -f` |
 
 ---
