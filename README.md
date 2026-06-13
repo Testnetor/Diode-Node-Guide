@@ -17,7 +17,7 @@
 This guide explains how to install and manage a Diode node using Snap.  
 Tested on Ubuntu and Debian-based Linux systems.
 
-## 📦 Requirements
+##  Requirements
 
 Minimum setup to run a Diode node:
 
