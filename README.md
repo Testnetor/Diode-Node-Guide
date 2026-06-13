@@ -150,7 +150,7 @@ Check your node’s status, ID, and connection info with:
 diode-node.info
 ```
 
----
+--
 
 ## 🛠️ Useful Commands
 
